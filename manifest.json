@@ -1,0 +1,13 @@
+{
+    "type": "setup",
+    "alias": "workflows",
+    "entrypoint": "./src/start.sh",
+    "termination": "./src/stop.sh",
+    "variables": [
+        {
+            "name": "myVar",
+            "type": "string",
+            "description": "some basic description"
+        }
+    ]
+}
