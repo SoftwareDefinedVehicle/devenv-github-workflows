@@ -1,7 +1,7 @@
 {
-    "alias": "workflows",
     "components": [
         {
+            "name": "workflows",
             "type": "setup",
             "files": [
                 {
@@ -28,7 +28,7 @@
                     "name": "repoType",
                     "type": "string",
                     "required": true,
-                    "description": "The type of the repository: 'template' or 'sdk'"
+                    "description": "The type of the repository: 'app' or 'sdk'"
                 },
                 {
                     "name": "appManifestPath",
